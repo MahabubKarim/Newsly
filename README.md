@@ -39,21 +39,12 @@ A modern Android news app built with Jetpack Compose, Hilt, Room, Retrofit, and 
 
 Sign up at [https://newsapi.org](https://newsapi.org) and get your free API key.
 
-### 2. 🧪 Set Environment Variable
-
-Set the API key as an environment variable named `NEWS_API_KEY`.
-
-**On macOS/Linux:**
-```bash
-export NEWS_API_KEY=your_api_key_here
-```
-
-**On Windows (Command Prompt):**
-```cmd
-set NEWS_API_KEY=your_api_key_here
-```
+### 2. 🧪 Set API Key
 
 > ℹ️ The API key is injected into the app via `buildConfigField`.
+```
+buildConfigField("String", "NEWS_API_KEY", "\"YOUR_API_KEY\"")
+```
 
 ---
 
