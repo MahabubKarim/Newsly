@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Newsly</string>
+    <string name="retry">Retry</string>
+    <string name="article_details">Article Details</string>
+    <string name="back">Back</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="saved_articles">Saved Articles</string>
+    <string name="no_saved_articles">No saved articles yet</string>
+</resources>
